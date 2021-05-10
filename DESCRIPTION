@@ -1,0 +1,15 @@
+Package: toAmpvis
+Title: A package for converting outputs into a Ampvis2 compatible format. 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Frederik",
+           family = "Platz",
+           role = c("aut", "cre"),
+           email = "frederikplatz@live.dk",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package takes taxonomic classification outputs and DeepARG outputs and converts them into a format compatible with ampvis2. This makes comparison and visualization into a breeze
+License: use_mit_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9001
