@@ -1,0 +1,7 @@
+install.packages("devtools")
+library(devtools)
+devtools::install_github("klutometis/roxygen")
+setwd("/srv/MA/users/fplatz16/toAmpvis/")
+create("toAmpvis")
+setwd("/srv/MA/users/fplatz16/toAmpvis/toAmpvis/")
+document()
